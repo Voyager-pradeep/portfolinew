@@ -1,0 +1,16 @@
+/* Portfolio.css */
+
+.card-container {
+  position: relative;
+  overflow: hidden;
+  z-index: 0 !important ; /* Ensure the z-index is set to 0 */
+}
+
+.card-container img {
+  width: 100%;
+  height: auto;
+}
+
+.card-container.fade-in {
+  opacity: 1;
+}
